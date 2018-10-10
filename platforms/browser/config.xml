@@ -10,17 +10,13 @@
     <description>
         Выбор подходящего займа для подачи заявки онлайн прямо с телефона
     </description>
-    <author email="support@phonegap.com">
+    <author email="support@apps.cute.su">
         Aleksandr Gromov
     </author>
     <content src="index.html" />
     <access origin="*" />
-    <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
-    <allow-intent href="tel:*" />
-    <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
-    <allow-intent href="geo:*" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="26" />
     <preference name="orientation" value="portrait" />
