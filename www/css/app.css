@@ -207,10 +207,38 @@ h1{
 
 
 .items-count{
-	font-size: 0.9em;
+	font-size: 0.91em;
 	text-align: center;
 }
 
+
+.loading{
+	position: absolute;
+	top:10px;
+	left: 20px;
+}
+
+.loader{
+	position: fixed;
+	z-index: 26;
+	top:0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	box-sizing: border-box;
+	padding: 18px;
+	color: #66a;
+	font-size: 2em;
+	font-weight: bold;
+	background: #fafafa;
+	text-align: center;
+}
+.loaderbody{
+	position: absolute;
+	top:34%;
+	margin-top: -30px;
+	width: 100%;
+}
 
 
 
@@ -317,33 +345,7 @@ h1{
 
 
 
-.loading{
-	position: absolute;
-	top:10px;
-	left: 20px;
-}
 
-.loader{
-	position: fixed;
-	z-index: 25;
-	top:0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	box-sizing: border-box;
-	padding: 20px;
-	color: #66a;
-	font-size: 2em;
-	font-weight: bold;
-	background: #fafafa;
-	text-align: center;
-}
-.loaderbody{
-	position: absolute;
-	top:30%;
-	margin-top: -30px;
-	width: 100%;
-}
 
 
 
@@ -374,4 +376,7 @@ h1{
 .blink {
     animation:fade 3000ms infinite;
     -webkit-animation:fade 2800ms infinite;
+}
+.close-icon{
+background: url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDIxLjkgMjEuOSIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMjEuOSAyMS45IiB3aWR0aD0iMTZweCIgaGVpZ2h0PSIxNnB4Ij4KICA8cGF0aCBkPSJNMTQuMSwxMS4zYy0wLjItMC4yLTAuMi0wLjUsMC0wLjdsNy41LTcuNWMwLjItMC4yLDAuMy0wLjUsMC4zLTAuN3MtMC4xLTAuNS0wLjMtMC43bC0xLjQtMS40QzIwLDAuMSwxOS43LDAsMTkuNSwwICBjLTAuMywwLTAuNSwwLjEtMC43LDAuM2wtNy41LDcuNWMtMC4yLDAuMi0wLjUsMC4yLTAuNywwTDMuMSwwLjNDMi45LDAuMSwyLjYsMCwyLjQsMFMxLjksMC4xLDEuNywwLjNMMC4zLDEuN0MwLjEsMS45LDAsMi4yLDAsMi40ICBzMC4xLDAuNSwwLjMsMC43bDcuNSw3LjVjMC4yLDAuMiwwLjIsMC41LDAsMC43bC03LjUsNy41QzAuMSwxOSwwLDE5LjMsMCwxOS41czAuMSwwLjUsMC4zLDAuN2wxLjQsMS40YzAuMiwwLjIsMC41LDAuMywwLjcsMC4zICBzMC41LTAuMSwwLjctMC4zbDcuNS03LjVjMC4yLTAuMiwwLjUtMC4yLDAuNywwbDcuNSw3LjVjMC4yLDAuMiwwLjUsMC4zLDAuNywwLjNzMC41LTAuMSwwLjctMC4zbDEuNC0xLjRjMC4yLTAuMiwwLjMtMC41LDAuMy0wLjcgIHMtMC4xLTAuNS0wLjMtMC43TDE0LjEsMTEuM3oiIGZpbGw9IiNGRkZGRkYiLz4KPC9zdmc+Cg==) no-repeat center center;
 }
